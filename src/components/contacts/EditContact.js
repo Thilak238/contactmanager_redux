@@ -54,7 +54,6 @@ class EditContact extends Component {
       phone,
     };
     this.props.updateContact(updContact);
-    //// UPDATE CONTACT ////
 
     // Clear State
     this.setState({
